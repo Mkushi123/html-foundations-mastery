@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+  </head>
+  <body>
+    <h1>Survey Form</h1>
+
+    <form>
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="tanzania">Tanzania</option>
+        <option value="kenya">Kenya</option>
+        <option value="uganda">Uganda</option>
+      </select>
+
+      <br><br>
+
+      <p>How did you hear about us?</p>
+      <input type="radio" id="social" name="source" value="social">
+      <label for="social">Social Media</label>
+
+      <input type="radio" id="friend" name="source" value="friend">
+      <label for="friend">Friend</label>
+
+      <input type="radio" id="google" name="source" value="google">
+      <label for="google">Google</label>
+
+      <br><br>
+
+      <label for="feedback">Your Feedback:</label><br>
+      <textarea id="feedback" name="feedback" rows="5" cols="40"></textarea>
+
+      <br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+
+  </body>
+</html>
