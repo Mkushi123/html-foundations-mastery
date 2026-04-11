@@ -1,6 +1,6 @@
 # HTML Foundations Mastery
 
-A collection of HTML exercises covering the fundamentals of web development.
+A collection of html file.
 
 ## Files
 
